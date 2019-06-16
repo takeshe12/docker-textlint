@@ -1,13 +1,5 @@
-FROM centos:7.4.1708
+FROM node:8.16.0-alpine
 LABEL maintainer "chaspy <take.she12@gmail.com>"
-
-RUN yum update -y
-RUN yum install -y epel-release
-RUN yum install -y \
-    gcc-c++ \
-    make \
-    nodejs \
-    npm
 
 RUN npm install -g \
     textlint \
