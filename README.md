@@ -5,7 +5,7 @@
 create .textlintrc and put current directory.
 
 ```
-$ docker run -v $(pwd):/data -w /data tk117/docker-textlint textlint <your-file-path>
+$ docker run -v $(pwd):/data -w /data chaspy/docker-textlint textlint <your-file-path>
 ```
 
 ## reference
