@@ -1,5 +1,5 @@
 FROM centos:7.4.1708
-LABEL  maintainer "tk117 <kondo.takeshi@jp.fujitsu.com>"
+LABEL maintainer "chaspy <take.she12@gmail.com>"
 
 RUN yum update -y
 RUN yum install -y epel-release
